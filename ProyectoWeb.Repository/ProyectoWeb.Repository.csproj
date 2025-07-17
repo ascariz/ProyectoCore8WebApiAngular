@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\ProyectoWeb.CrossCutting\ProyectoWeb.CrossCutting.csproj" />
+    <ProjectReference Include="..\ProyectoWeb.Interface\ProyectoWeb.Interface.csproj" />
+    <ProjectReference Include="..\ProyectoWeb.Data\ProyectoWeb.Data.csproj" />
+  </ItemGroup>
+
+</Project>

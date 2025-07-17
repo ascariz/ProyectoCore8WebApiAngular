@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="4.0.0" />
+    <PackageReference Include="DevExtreme.AspNet.Core" Version="22.2.5" />
+    <PackageReference Include="DevExtreme.AspNet.Data" Version="2.9.2" />
+    <PackageReference Include="EPPlus" Version="4.5.3.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ProyectoWeb.Data\ProyectoWeb.Data.csproj" />
+    <ProjectReference Include="..\ProyectoWeb.DTO\ProyectoWeb.DTO.csproj" />
+    <ProjectReference Include="..\ProyectoWeb.Interface\ProyectoWeb.Interface.csproj" />
+  </ItemGroup>
+
+</Project>
