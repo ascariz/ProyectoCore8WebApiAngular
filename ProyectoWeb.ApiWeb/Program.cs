@@ -1,4 +1,3 @@
-using Microsoft.AspNetCore.Builder;
 using ProyectoWeb.ApiWeb.Extensions;
 using Log = Serilog.Log;
 using Serilog;

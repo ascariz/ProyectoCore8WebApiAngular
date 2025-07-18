@@ -5,14 +5,6 @@ using Microsoft.Extensions.Caching.Memory;
 using ProyectoWeb.Interface.Aplicacion.Base;
 using System.Linq.Expressions;
 using System.Text.Json;
-using DevExtreme.AspNet.Data;
-using DevExtreme.AspNet.Data.ResponseModel;
-using DevExtreme.AspNet.Mvc;
-using Microsoft.Extensions.Caching.Memory;
-using System.Linq.Expressions;
-using System.Text.Json;
-using OfficeOpenXml.FormulaParsing.Excel.Functions.Text;
-using Microsoft.EntityFrameworkCore;
 using ProyectoWeb.Interface.Dominio.Base;
 
 namespace ProyectoWeb.Service.Base

@@ -4,7 +4,7 @@ using ProyectoWeb.Interface.Dominio.Base;
 
 namespace ProyectoWeb.Interface.Dominio
 {
-    public interface IProyectoRepository : IBaseRepository<ProyectoDto, Proyecto>
+    public interface IApplicationUserRepository : IBaseRepository<ApplicationUserDto, ApplicationUser>
     {
     }
 }

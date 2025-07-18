@@ -1,14 +1,9 @@
-﻿using Microsoft.AspNetCore.Localization;
-using Microsoft.AspNetCore.Mvc.Razor;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
+﻿using Microsoft.EntityFrameworkCore;
 using ProyectoWeb.Data;
 using ProyectoWeb.Interface.Aplicacion;
 using ProyectoWeb.Interface.Dominio;
 using ProyectoWeb.Repository;
 using ProyectoWeb.Service;
-using System.Globalization;
 
 namespace ProyectoWeb.ApiWeb.Extensions
 {

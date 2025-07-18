@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using ProyectoWeb.DTO;
 using ProyectoWeb.Interface.Aplicacion;
-using ProyectoWeb.Interface.Aplicacion.Base;
 
 namespace ProyectoWeb.ApiWeb.Controllers
 {

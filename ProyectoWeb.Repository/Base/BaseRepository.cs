@@ -1,26 +1,15 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ProyectoWeb.Data;
 using ProyectoWeb.Interface.Dominio.Base;
-using System;
-using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
 using System.Linq.Expressions;
 using System.Reflection;
-using System.Text;
-using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using System.Linq.Expressions;
-using AppToContext = ProyectoWeb.CrossCutting.Mappers.DtoToEntry;
-using ContextToApp = ProyectoWeb.CrossCutting.Mappers.EntryToDto;
+using AppToContext = ProyectoWeb.CrossCutting.Mappers.DtoToEntity;
+using ContextToApp = ProyectoWeb.CrossCutting.Mappers.EntityToDto;
 
 using Microsoft.Extensions.Caching.Memory;
-using DevExtreme.AspNet.Data;
 using ProyectoWeb.Repository.Helpers;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Reflection;
-using System.ComponentModel.DataAnnotations;
 
 namespace ProyectoWeb.Repository.Base
 {

@@ -7,9 +7,8 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\ProyectoWeb.CrossCutting\ProyectoWeb.CrossCutting.csproj" />
-    <ProjectReference Include="..\ProyectoWeb.Interface\ProyectoWeb.Interface.csproj" />
     <ProjectReference Include="..\ProyectoWeb.Data\ProyectoWeb.Data.csproj" />
+    <ProjectReference Include="..\ProyectoWeb.DTO\ProyectoWeb.DTO.csproj" />
   </ItemGroup>
 
 </Project>

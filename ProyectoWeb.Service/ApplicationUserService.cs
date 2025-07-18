@@ -7,23 +7,23 @@ using ProyectoWeb.Service.Base;
 
 namespace ProyectoWeb.Service
 {
-    public class ProyectoService :  BaseService<ProyectoDto, Proyecto, IProyectoRepository>, IProyectoService
+    public class ApplicationUserService :  BaseService<ApplicationUserDto, ApplicationUser, IApplicationUserRepository>, IApplicationUserService
     {
-        private IProyectoRepository _repo;
+        private IApplicationUserRepository _repo;
         private readonly IMemoryCache _memoryCache;
 
-        public ProyectoService(IProyectoRepository repo, IMemoryCache memoryCache) : base(repo, memoryCache)
+        public ApplicationUserService(IApplicationUserRepository repo, IMemoryCache memoryCache) : base(repo, memoryCache)
         {
             _repo = repo;
             _memoryCache = memoryCache;
         }
 
         /// <summary>
-        /// validadcion  Proyecto
+        /// validadcion  ApplicationUser
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
-        public bool Validacion(ProyectoDto dto)
+        public bool Validacion(ApplicationUserDto dto)
         {
             // ejemplo
             // if (dto.LuJuHoraEntrada < dto.LuJuHoraSalida)
@@ -32,18 +32,18 @@ namespace ProyectoWeb.Service
             return true;
         }
         /// <summary>
-        /// duplicado Proyecto
+        /// duplicado ApplicationUser
         /// </summary>
         /// <param name="texto"></param>
         /// <returns></returns>
-        public ProyectoDto EsDuplicado(string texto)
+        public ApplicationUserDto EsDuplicado(string texto)
         {
             //var dto = _repo.Find(x => x.Descripcion == texto);
             //if (dto != null)
             //{               
             //    return dto;
             //}
-            return new ProyectoDto();
+            return new ApplicationUserDto();
         }
     }
 }

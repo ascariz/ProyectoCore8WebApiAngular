@@ -3,20 +3,20 @@ using ProyectoWeb.Interface.Aplicacion.Base;
 
 namespace ProyectoWeb.Interface.Aplicacion
 {
-    public interface IProyectoService : IBaseService<ProyectoDto>
+    public interface IApplicationUserService : IBaseService<ApplicationUserDto>
     {
         /// <summary>
-        /// Validaciones de la entidad Proyecto
+        /// Validaciones de la entidad ApplicationUser
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
-        bool Validacion(ProyectoDto dto);
+        bool Validacion(ApplicationUserDto dto);
 
         /// <summary>
-        /// Duplicado de la entidad Proyecto
+        /// Duplicado de la entidad ApplicationUser
         /// </summary>
         /// <param name="dto"></param>
         /// <returns></returns>
-        ProyectoDto EsDuplicado(string texto);
+        ApplicationUserDto EsDuplicado(string texto);
     }
 }

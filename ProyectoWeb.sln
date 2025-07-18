@@ -39,7 +39,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWeb.Repository", "P
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWeb.ApiWeb", "ProyectoWeb.ApiWeb\ProyectoWeb.ApiWeb.csproj", "{DB1CE3A6-BBE4-7DA0-25E4-97B459A58C67}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWeb.CrossCutting", "..\ProyectoWeb.CrossCutting\ProyectoWeb.CrossCutting.csproj", "{1A9378CC-2C7D-4BED-A6C8-F3E05492CC0C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProyectoWeb.CrossCutting", "ProyectoWeb.CrossCutting\ProyectoWeb.CrossCutting.csproj", "{1A9378CC-2C7D-4BED-A6C8-F3E05492CC0C}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.0-Angular", "1.0-Angular", "{629E27F7-CECA-436A-BEF8-798ECC65F6CF}"
 EndProject

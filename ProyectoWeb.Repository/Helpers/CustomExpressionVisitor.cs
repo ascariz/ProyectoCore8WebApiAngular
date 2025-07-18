@@ -1,4 +1,4 @@
-﻿using ProyectoWeb.CrossCutting.Mappers.DtoToEntry;
+﻿using ProyectoWeb.CrossCutting.Mappers.DtoToEntity;
 using System.Linq.Expressions;
 
 namespace ProyectoWeb.Repository.Helpers
@@ -6,12 +6,12 @@ namespace ProyectoWeb.Repository.Helpers
     internal class CustomExpressionVisitor<TApp, TDb> : ExpressionVisitor
     {
         ParameterExpression _parameter;
-        private readonly CrossCutting.Mappers.DtoToEntry.MapperBase _factory;
+        private readonly MapperBase _factory;
 
         public CustomExpressionVisitor(ParameterExpression parameter)
         {
             _parameter = parameter;
-            _factory = CrossCutting.Mappers.DtoToEntry.FactorySwitcher.GetFactoryFor(typeof(TApp));
+            _factory = FactorySwitcher.GetFactoryFor(typeof(TApp));
         }
 
         protected override Expression VisitParameter(ParameterExpression node)

@@ -8,11 +8,11 @@ using ProyectoWeb.Repository.Base;
 
 namespace ProyectoWeb.Repository
 {
-    public class ProyectoRepository : BaseRepository<ProyectoDto, Proyecto>, IProyectoRepository
+    public class ProyectoImgRepository : BaseRepository<ProyectoImgDto, ProyectoImg>, IProyectoImgRepository
     {
-        private ILogger<ProyectoRepository> _log;
+        private ILogger<ProyectoImgRepository> _log;
 
-        public ProyectoRepository(IMemoryCache memoryCache, ApplicationDbContext context, ILogger<ProyectoRepository> log)
+        public ProyectoImgRepository(IMemoryCache memoryCache, ApplicationDbContext context, ILogger<ProyectoImgRepository> log)
             : base(context, memoryCache)
         {
             _log = log;
